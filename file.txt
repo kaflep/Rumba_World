@@ -1,0 +1,259 @@
+LASTNAME_FIRSTNAME
+ Rumba Simulation calling Agent
+prob_of_dirt: 20 % 
+ACTION_PENALTY: 2
+ONE_CLEAN : 1
+TWO_CLEAN : 5
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 0
+Action : RIGHT
+Round 1 complete.
+Environment : [['DIRTY', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: -1
+Action : LEFT
+
+Round 2 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: -2
+Action : VACUUM
+
+Round 3 complete.
+Environment : [['DIRTY', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'DIRTY']
+Score: -4
+Action : VACUUM
+
+Round 4 complete.
+Environment : [['CLEAN', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'CLEAN']
+Score: -5
+Action : RIGHT
+
+Round 5 complete.
+Environment : [['CLEAN', '-----'], ['DIRTY', 'RUMBA']]
+Percept : [1, 'DIRTY']
+Score: -6
+Action : VACUUM
+
+Round 6 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: -3
+Action : LEFT
+
+Round 7 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 0
+Action : RIGHT
+
+Round 8 complete.
+Environment : [['DIRTY', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: -1
+Action : LEFT
+
+Round 9 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: -2
+Action : VACUUM
+
+Round 10 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 1
+Action : RIGHT
+
+Round 11 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 4
+Action : LEFT
+
+Round 12 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: 3
+Action : VACUUM
+
+Round 13 complete.
+Environment : [['DIRTY', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'DIRTY']
+Score: 1
+Action : VACUUM
+
+Round 14 complete.
+Environment : [['DIRTY', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'DIRTY']
+Score: -1
+Action : VACUUM
+
+Round 15 complete.
+Environment : [['CLEAN', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'CLEAN']
+Score: -2
+Action : RIGHT
+
+Round 16 complete.
+Environment : [['CLEAN', '-----'], ['DIRTY', 'RUMBA']]
+Percept : [1, 'DIRTY']
+Score: -3
+Action : VACUUM
+
+Round 17 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 0
+Action : LEFT
+
+Round 18 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 3
+Action : RIGHT
+
+Round 19 complete.
+Environment : [['DIRTY', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 2
+Action : LEFT
+
+Round 20 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: 1
+Action : VACUUM
+
+Final Score : 1prob_of_dirt: 20 % 
+ACTION_PENALTY: 2
+ONE_CLEAN : 1
+TWO_CLEAN : 5
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 0
+Action : NOTHING
+Round 1 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: 1
+Action : VACUUM
+
+Round 2 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: 0
+Action : VACUUM
+
+Round 3 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 3
+Action : NOTHING
+
+Round 4 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 8
+Action : RIGHT
+
+Round 5 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 11
+Action : LEFT
+
+Round 6 complete.
+Environment : [['CLEAN', 'RUMBA'], ['DIRTY', '-----']]
+Percept : [0, 'CLEAN']
+Score: 10
+Action : RIGHT
+
+Round 7 complete.
+Environment : [['CLEAN', '-----'], ['DIRTY', 'RUMBA']]
+Percept : [1, 'DIRTY']
+Score: 9
+Action : VACUUM
+
+Round 8 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 12
+Action : NOTHING
+
+Round 9 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 17
+Action : LEFT
+
+Round 10 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 20
+Action : RIGHT
+
+Round 11 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 23
+Action : LEFT
+
+Round 12 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 26
+Action : RIGHT
+
+Round 13 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 29
+Action : LEFT
+
+Round 14 complete.
+Environment : [['DIRTY', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'DIRTY']
+Score: 28
+Action : VACUUM
+
+Round 15 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 31
+Action : NOTHING
+
+Round 16 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 36
+Action : RIGHT
+
+Round 17 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 39
+Action : LEFT
+
+Round 18 complete.
+Environment : [['CLEAN', 'RUMBA'], ['CLEAN', '-----']]
+Percept : [0, 'CLEAN']
+Score: 42
+Action : RIGHT
+
+Round 19 complete.
+Environment : [['CLEAN', '-----'], ['DIRTY', 'RUMBA']]
+Percept : [1, 'DIRTY']
+Score: 41
+Action : VACUUM
+
+Round 20 complete.
+Environment : [['CLEAN', '-----'], ['CLEAN', 'RUMBA']]
+Percept : [1, 'CLEAN']
+Score: 44
+Action : NOTHING
+
+Final Score : 44
